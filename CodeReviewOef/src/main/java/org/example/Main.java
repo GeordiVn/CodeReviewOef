@@ -45,8 +45,11 @@ public class Main {
             System.out.println("password must contain a capital letter!");
         } else if (hasSpecialChar == false) {
             System.out.println("password must have a special character!");
+        }else
+        {
+            System.out.println("Uw wachtwoord : " + password + " voldoet aan de eisen!");
+
         }
 
-        System.out.println("Uw wachtwoord : "+ password + " voldoet aan de eisen!");
     }
 }
